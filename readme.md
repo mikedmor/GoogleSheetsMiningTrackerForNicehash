@@ -3,7 +3,7 @@
 This repositiory contains all the files I used to put together my Google Sheets Mining Tracker.
 In order to use this correctly you will need a webserver that supports php, cron, and mysql.
 
-Alternatively with some tweaks the ImportJSON.gs script you could also use a paid source for the same data.
+Alternatively with some tweaks the ImportJSON.gs script you could also use a paid source or just paste the date manually into the MiningPayments & PriceHistory workbooks. 
 
 ![Spreadsheet Dashboard](preview.png)
 
