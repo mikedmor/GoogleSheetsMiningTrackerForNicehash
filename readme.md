@@ -5,6 +5,8 @@ In order to use this correctly you will need a webserver that supports php, cron
 
 Alternatively with some tweaks the ImportJSON.gs script you could also use a paid source for the same data.
 
+![Spreadsheet Dashboard](preview.png)
+
 ## How to Setup
 **⚠️Important:** Before starting these steps assume you have a webserver that supports php, cron and mysql. If you do not and plan to modify ImportJSON.gs instead to use another service, please skip to step **5**.
 
