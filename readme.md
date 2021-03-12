@@ -19,7 +19,7 @@ Alternatively with some tweaks the ImportJSON.gs script you could also use a pai
 5. Visit https://docs.google.com/spreadsheets/d/1WMX_45F43w6nT2oQ-GyXAcLeo1qO2rTnsSeeyqjhTaU/edit?usp=sharing and click **File -> Make a Copy**
 6. Go to the Settings Workbook and update the information
     - Set the domain and directory you are hosting the **getHistory.php** file (Skip this step if you are editing ImportJSON.gs)
-    - Set the Coinpair you want to you and how far back you want to load data from (Skip this step if you are editing ImportJSON.gs)
+    - Set the Coin pair you want to use and how far back you want to load data from (Skip this step if you are editing ImportJSON.gs)
     - Set the NICEHASH API KEY, NICEHASH SECRET KEY, and NICEHASH ORGANIZATION
 7. If you are hosting the **getHistory.php** and not editing ImportJSON.gs then you are now complete! Continue reading otherwise.
 8. Go to **Tools -> Script Editor** and open the **ImportJSON.gs** file
