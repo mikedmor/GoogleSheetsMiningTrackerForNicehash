@@ -8,7 +8,7 @@ Alternatively with some tweaks the ImportJSON.gs script you could also use a pai
 ![Spreadsheet Dashboard](preview.png)
 
 ## How to Setup
-**⚠️Important:** Before starting these steps assume you have a webserver that supports php, cron and mysql. If you do not and plan to modify ImportJSON.gs instead to use another service, please skip to step **5**.
+**⚠️Important:** Before starting, these steps assume you have a webserver that supports php, cron and mysql. If you do not and plan to modify ImportJSON.gs instead to use another service, please skip to step **5**.
 
 1. Copy **config.php**, **copyPrice.php**, **getHistory.php** onto your webserver.
 2. Edit **config.php** with your mysql and cryptocompare api key.
