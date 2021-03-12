@@ -51,10 +51,10 @@ Please consider dropping a donation to my paypal, alternative i also accept Cryp
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=K3LCC3QY2LSE8)
 
-UnstoppableDomain: mikedmor.crypto
+UnstoppableDomain: **mikedmor.crypto**
 
-BTC: bc1q567uzwg03he35m58tljzr30cy6mg9z52d899t4
+BTC: **bc1q567uzwg03he35m58tljzr30cy6mg9z52d899t4**
 
-ETH: 0xf3Af4e5889ac3D5f605FC42C90476996051De2Fe
+ETH: **0xf3Af4e5889ac3D5f605FC42C90476996051De2Fe**
 
-LTC: LgWgxnwLbmi7nuvn5Lt4g7KKZLpPHjxdZL
+LTC: **LgWgxnwLbmi7nuvn5Lt4g7KKZLpPHjxdZL**
