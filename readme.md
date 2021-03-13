@@ -18,7 +18,7 @@ Alternatively with some tweaks the ImportJSON.gs script you could also use a pai
 3. Import the **crypto.sql** file into your mysql database. If you search for data repositories on the internet you should be able to find some documents that can easily be uploaded to the stat_history table with minimal work.
 4. Setup a cron job that runs **copyPrice.php** every hour to copy price data to your data from cryptocompare. This will be your historical database. If you would like to copy more often, you will need to edit the **copyPrice.php** script to account for that.
 5. Visit https://docs.google.com/spreadsheets/d/1pEDlhGWe1aGEw-nU39MwdpYjP3kwLoBFlulNlw7cP1k/edit?usp=sharing and click **File -> Make a Copy**
-    - Alternatively V1.5 of the spreadsheet uses NiceHash API only: https://docs.google.com/spreadsheets/d/1u5LkT1KQ57SA6vSG8YLceLkl6Dz_4uVhCLw9gVoxsbA/edit?usp=sharing
+    - Alternatively V1.5 of the spreadsheet uses NiceHash API only, no webserver needed: https://docs.google.com/spreadsheets/d/1u5LkT1KQ57SA6vSG8YLceLkl6Dz_4uVhCLw9gVoxsbA/edit?usp=sharing
 7. Go to the Settings Workbook and update the information
     - Set the domain and directory you are hosting the **getHistory.php** file (Skip this step if you are editing ImportJSON.gs)
     - Set the Coin pair you want to use and how far back you want to load data from (Skip this step if you are editing ImportJSON.gs)
