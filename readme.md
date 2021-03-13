@@ -2,6 +2,7 @@
 
 This repositiory contains all the files I used to put together my Google Sheets Mining Tracker.
 In order to use this correctly you will need a webserver that supports php, cron, and mysql.
+*Note: Skip to Step 5 for an Version 1.5 which does not require a webserver and only uses NiceHash API*
 
 Alternatively with some tweaks the ImportJSON.gs script you could also use a paid source or just paste the data manually into the MiningPayments & PriceHistory workbooks. 
 
@@ -17,14 +18,15 @@ Alternatively with some tweaks the ImportJSON.gs script you could also use a pai
 3. Import the **crypto.sql** file into your mysql database. If you search for data repositories on the internet you should be able to find some documents that can easily be uploaded to the stat_history table with minimal work.
 4. Setup a cron job that runs **copyPrice.php** every hour to copy price data to your data from cryptocompare. This will be your historical database. If you would like to copy more often, you will need to edit the **copyPrice.php** script to account for that.
 5. Visit https://docs.google.com/spreadsheets/d/1pEDlhGWe1aGEw-nU39MwdpYjP3kwLoBFlulNlw7cP1k/edit?usp=sharing and click **File -> Make a Copy**
-6. Go to the Settings Workbook and update the information
+    - Alternatively V1.5 of the spreadsheet uses NiceHash API only: https://docs.google.com/spreadsheets/d/1u5LkT1KQ57SA6vSG8YLceLkl6Dz_4uVhCLw9gVoxsbA/edit?usp=sharing
+7. Go to the Settings Workbook and update the information
     - Set the domain and directory you are hosting the **getHistory.php** file (Skip this step if you are editing ImportJSON.gs)
     - Set the Coin pair you want to use and how far back you want to load data from (Skip this step if you are editing ImportJSON.gs)
     - Set the NICEHASH API KEY, NICEHASH SECRET KEY, and NICEHASH ORGANIZATION
     - Fill out your Income tax, and Capital gains tax information using the charts provided (please note these may not be accurate)
-7. If you are hosting the **getHistory.php** and not editing ImportJSON.gs then you are now complete! Continue reading otherwise.
-8. Go to **Tools -> Script Editor** and open the **ImportJSON.gs** file
-9. Edit the ImportJSON.gs to work for your service of choice.
+8. If you are hosting the **getHistory.php** and not editing ImportJSON.gs then you are now complete! Continue reading otherwise.
+9. Go to **Tools -> Script Editor** and open the **ImportJSON.gs** file
+10. Edit the ImportJSON.gs to work for your service of choice.
     - Depending on how much you change IMPORTJSON function you may need to also update the triggerAutoRefresh.gs, and the PriceHistory workbook at cell A2.
 
 ## Post-setup
